@@ -90,8 +90,4 @@ Object detection is a key task in computer vision. However, training detection m
 
 ---
 
-## 📧 Contact
 
-**Biplove Lamsal**  
-University of Texas at San Antonio  
-Email: biplove.lamsal@example.edu
