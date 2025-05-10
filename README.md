@@ -74,8 +74,8 @@ Object detection is a key task in computer vision. However, training detection m
 
 ## 📎 Downloads
 
-- 📄 [Final Project Report (PDF)](link-to-your-report)
-- 📊 [Slides (PPT)](link-to-your-slides)
+- 📄 📄 [Biplove_final_project.pdf](Biplove_final_project.pdf)
+  
 
 ---
 
