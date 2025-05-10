@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallel and Distributed Deep Learning Techniques for Real-Time Object Detection
-</title>
+  <meta charset="UTF-8">
+  <title>Distributed Object Detection - Final Project</title>
 </head>
 <body>
-    <h1>Parallel and Distributed Deep Learning Techniques for Real-Time Object Detection
-</h1>
-    <p>Welcome to my implementation based project on arallel and Distributed Deep Learning Techniques for Real-Time Object Detection</p>
+  <h1>Distributed Object Detection with DDP, FSDP, and DeepSpeed ZeRO</h1>
 
-    <h2>Project Overview</h2>
-    <p>This implementation explores Parallel and Distributed Deep Learning Techniques for Real-Time Object Detection:</p>
-    <ul>
-        <li>PyTorch’s Distributed Data Parallel (DDP)</li>
-        <li>Horovod-based training</li>
-        <li> mixed precision training using CUDA and NVIDIA Apex</li>
-    </ul>
+  <p>This is the final project for CS 5463: High Performance Machine Learning.</p>
 
-    <h2>Project Components</h2>
-    <ul>
-        <li><a href="scope.html">Scope of the Survey</a></li>
-        <li><a href="survey_paper.html">Survey Paper</a></li>
-        <li><a href="references.html">References & Research Papers</a></li>
-    </ul>
+  <h2>Project Overview</h2>
+  <p>
+    We compare three distributed training methods—PyTorch DDP, FSDP, and DeepSpeed ZeRO Stage 1—on object detection with Faster R-CNN using a subset of the COCO 2017 dataset.
+  </p>
+
+  <h2>Quick Links</h2>
+  <ul>
+    <li><a href="Biplove_final_implementation_paper.pdf">📄 Final Report (PDF)</a></li>
+   
+    <li><a href="https://github.com/biplovelamsal/distributed-object-detection-ddp-fsdp-zero">🔗 GitHub Repository</a></li>
+  </ul>
+
+  <h2>Code</h2>
+  <ul>
+    <li><a href="ddp/train_ddp.py">DDP Implementation</a></li>
+    <li><a href="fsdp/train_fsdp.py">FSDP Implementation</a></li>
+    <li><a href="ZeRO/train_ZeRO.py">ZeRO Implementation</a></li>
+  </ul>
+
+  <h2>References</h2>
+  <ul>
+    <li><a href="https://arxiv.org/abs/1506.01497">Faster R-CNN</a></li>
+    <li><a href="https://cocodataset.org/">COCO Dataset</a></li>
+    <li><a href="https://pytorch.org/docs/stable/notes/ddp.html">PyTorch DDP</a></li>
+    <li><a href="https://pytorch.org/docs/stable/fsdp.html">PyTorch FSDP</a></li>
+    <li><a href="https://www.microsoft.com/en-us/research/blog/zero-optimizations-for-training-large-deep-learning-models/">DeepSpeed ZeRO</a></li>
+  </ul>
+
 </body>
 </html>
