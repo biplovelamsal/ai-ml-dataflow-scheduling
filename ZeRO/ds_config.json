@@ -1,0 +1,24 @@
+{
+    "train_batch_size": 64,
+    "gradient_accumulation_steps": 2,
+    "zero_allow_untested_optimizer": true,
+    "optimizer": {
+      "type": "SGD",
+      "params": {
+        "lr": 0.005,
+        "momentum": 0.9,
+        "weight_decay": 0.0005
+      }
+    },
+    "zero_optimization": {
+      "stage": 1,
+      "offload_optimizer": {
+        "device": "cpu"
+      }
+    },
+    "fp16": {
+      "enabled": false
+    },
+    "gradient_clipping": 1.0,
+    "steps_per_print": 100
+}
