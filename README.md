@@ -1,4 +1,4 @@
-# Distributed Object Detection with DDP, FSDP, and DeepSpeed ZeRO
+# Distributed Object Detection with DDP, FSDP and DeepSpeed ZeRO
 
 ## 📌 Overview
 
